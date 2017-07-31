@@ -1,0 +1,67 @@
+* {
+	box-sizing: border-box;
+}
+.board {
+	
+	background-image: url(../img/docka.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 800px;
+	height: 800px;
+	margin: 0 auto;	
+	transform: perspective(1000px) rotate3d(300,-70,80,55deg);
+}
+.chess {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+}
+.chess_black {
+	background: #303030;
+}
+.chess_red {
+	background: #B6282D;
+}
+
+.chess_float-left {
+	float: left;
+}
+.chess_float-right {
+	float: right;
+}
+
+.chess_row-8 {
+	margin-top: 45px;
+}
+.chess_row-all {
+	margin-top: 20px;
+}
+.chess_row-3 {
+	margin-top: 195px;
+}
+
+.chess_col-margin {
+	margin-left: 107px; 
+}
+
+
+.chess:nth-of-type(1), .chess:nth-of-type(9) {
+	margin-left: 140px;
+}
+.chess:nth-of-type(5) {
+	margin-right: 145px;
+}
+.chess:nth-of-type(8) {
+	margin-left: 0px;
+}
+
+
+.chess:nth-of-type(13), .chess:nth-of-type(21) {
+	margin-right: 145px;
+}
+.chess:nth-of-type(16), .chess:nth-of-type(24) {
+	margin-left: 0px;
+}
+.chess:nth-of-type(17) {
+	margin-left: 140px;
+}
